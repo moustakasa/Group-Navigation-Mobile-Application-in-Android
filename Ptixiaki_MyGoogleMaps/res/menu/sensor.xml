@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_enable_Sensor"
+        android:showAsAction="never"
+        android:title="@string/Sensor_On"
+        />
+    
+    <item
+        android:id="@+id/action_disable_Sensor"
+        android:showAsAction="never"
+        android:title="@string/Sensor_Off"
+        />
+</menu>

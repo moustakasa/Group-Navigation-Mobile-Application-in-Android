@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <Button
+        android:id="@+id/send_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="@string/send_via_sms_button"
+        android:onClick="onSendButton1Click"
+        android:contentDescription="@string/new_destination" />
+    
+     
+     <!--
+     
+     <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/new_destination"
+        android:drawableStart="@drawable/ic_action_search" >
+
+        <requestFocus />
+    </MultiAutoCompleteTextView>
+     
+     -->
+     
+     
+
+    <TextView
+        android:id="@+id/lblLatitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Latitude"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblLongitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Longitude"
+        android:textColor="#FF0000" />
+<!-- 7 TextViews for labels and 7 more, for value represantation -->
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lbladdress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Address"
+        android:textColor="#4B0082"  />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lblcity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/City"
+        android:textColor="#2014C6" />
+    
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lblstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/State"
+        android:textColor="#716E9C" />
+    
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lblpostal_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Postal_Code"
+        android:textColor="#12A626" />
+    
+    <TextView
+        android:id="@+id/tvPostalCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/lblcountry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Country"
+        android:textColor="#FF8000" />
+    
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>
